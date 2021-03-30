@@ -32,7 +32,7 @@ client.once('disconnect', () => {
 
 async function play(newMember) {
 
-    const songInfo = await ytdl.getInfo('https://youtu.be/ZnCknpeNatQ');
+    const songInfo = await ytdl.getInfo('https://youtu.be/6FcpPMdH9UM');
     const song = {
         title: songInfo.videoDetails.title,
         url: songInfo.videoDetails.video_url,
